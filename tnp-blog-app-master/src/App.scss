@@ -1,0 +1,21 @@
+$background:#050c02f8;
+
+$theme-colors: (
+  "primary": #411e8f,
+  'secondary': #200a5d,
+  "danger": #ff4136,
+  'background': $background,
+  'secondary-background': #512585f1,
+  'dark': #2a2438,
+  'success': green,
+  'white': rgb(255, 255, 255),
+  'text-dark': rgb(0, 0, 0),
+  
+);
+$primary: #411e8f;
+$secondary: #4e2b77;
+#root {
+  background-color: $background
+}
+
+@import "~bootstrap/scss/bootstrap";

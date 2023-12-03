@@ -1,0 +1,96 @@
+@import "../../App.scss";
+.container-fluid{ 
+    height: 100%;
+    min-height: 100vh;
+    background-color: $background;
+}   
+a {
+    text-decoration: none;
+}
+
+.content-wrapper {
+    max-height: 90vh;
+    min-height: 80vh;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: white;
+}
+
+.custom {
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authorButton {
+    max-width: 120px;
+    margin-left: 15px;
+}
+
+.title {
+    margin-left: 15px;
+}
+
+.backdrop {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.custom_img{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.wrapper {  
+    backdrop-filter: blur(10px);
+    z-index: 12000;
+    height: 100%;
+    width: 100%;
+}
+
+btn {
+    z-index: 1200 !important;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.views {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    height: 3px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.circle {
+    position: absolute;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
